@@ -15,9 +15,9 @@ build: off  # отключаем встроенную в appveyor систему
 
 build_script:
   - npm run build   # команда сборки
+  - npm start
 
 test_script:
-  - npm start
   - npm run lint && npm test  # скрипт тестирования
 
 deploy_script:  # скрипт развёртывания
