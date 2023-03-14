@@ -9,7 +9,7 @@ describe('Page start', () => {
       headless: false,
       slowMo: 100,
       devtools: true,
-      args: ["--no-sandbox"],
+      args: ['--no-sandbox', '--disable-setuid-sandbox'],
     });
 
     page = await browser.newPage();
