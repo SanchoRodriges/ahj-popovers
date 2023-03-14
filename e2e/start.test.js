@@ -9,6 +9,7 @@ describe('Page start', () => {
       headless: false,
       slowMo: 100,
       devtools: true,
+      args: ["--no-sandbox"],
     });
 
     page = await browser.newPage();
