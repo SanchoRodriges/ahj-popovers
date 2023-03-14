@@ -1,0 +1,32 @@
+body {
+    color: #999;
+}
+
+.wrapper {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popover {
+    position: relative;
+}
+
+.popover-info {
+    position: absolute;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.popover-title {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.popover-desc {
+    padding: 5px;
+}
