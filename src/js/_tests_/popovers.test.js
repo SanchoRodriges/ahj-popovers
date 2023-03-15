@@ -12,6 +12,7 @@ test('widget should render', () => {
     `;
 
     const popover = new Popovers('.popover');
+    
     popover.items[0].click();
 
     const popoverInfo = document.querySelector('.popover-info')
