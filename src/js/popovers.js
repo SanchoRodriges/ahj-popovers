@@ -28,9 +28,9 @@ export default class Popovers {
     const { left, top, width } = item.getBoundingClientRect();
     popover.classList.add('popover-info');
     popover.innerHTML = `
-            <div class="popover-title">${item.dataset.title}</div>
-            <div class="popover-desc">${item.dataset.desc}</div>
-        `;
+      <div class="popover-title">${item.dataset.title}</div>
+      <div class="popover-desc">${item.dataset.desc}</div>
+    `;
     document.body.append(popover);
     const { height, width: popWidth } = popover.getBoundingClientRect();
     popover.style.top = `${top - height - 5}px`;
